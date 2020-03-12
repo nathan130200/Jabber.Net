@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jabber.Net", "Jabber.Net\Jabber.Net.csproj", "{83FE485F-F1C5-4292-94A4-CF4BC4F59973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jabber.Net", "Jabber.Net\Jabber.Net.csproj", "{83FE485F-F1C5-4292-94A4-CF4BC4F59973}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{77C58F4B-AB60-4025-B806-8DC3905D160F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,9 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{83FE485F-F1C5-4292-94A4-CF4BC4F59973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +34,11 @@ Global
 		{83FE485F-F1C5-4292-94A4-CF4BC4F59973}.Release|x64.Build.0 = Release|Any CPU
 		{83FE485F-F1C5-4292-94A4-CF4BC4F59973}.Release|x86.ActiveCfg = Release|Any CPU
 		{83FE485F-F1C5-4292-94A4-CF4BC4F59973}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B1C7BC9-C8EE-4F85-9C79-73F235850C9E}
 	EndGlobalSection
 EndGlobal

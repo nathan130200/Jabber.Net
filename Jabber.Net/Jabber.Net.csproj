@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<TargetFrameworks>netstandard2.0</TargetFrameworks>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+	<Version>1.0.0</Version>
+	<Description>.NET Core XMPP Library</Description>
+	<PackageProjectUrl>https://github.com/nathan130200/Jabber.Net/</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/nathan130200/Jabber.Net</RepositoryUrl>
+	<PackageTags>xmpp, xmpp-client, xmpp-component, xmpp-server, xmpp-service</PackageTags>
+	<Copyright>2020 (C) FRNathan13</Copyright>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Jabber.Net</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="DotNetZip" Version="1.13.6" />
+  </ItemGroup>
+</Project>
